@@ -5,14 +5,14 @@ Config.Locale = 'en' -- options: 'en', 'id'
 
 -- FRAMEWORK SETTINGS
 Config.Framework = 'qb' -- 'esx', 'qb', or 'autodetect'
-Config.TargetSystem = 'qb' -- 'ox', 'qb', or 'autodetect'
+Config.TargetSystem = 'ox' -- 'ox', 'qb', or 'autodetect'
 
 -- UI SETTINGS
 Config.UI = {
-    Menu = 'lation_ui', -- 'ox_lib', 'qb-menu', 'lation_ui'
-    Input = 'lation_ui', -- 'ox_lib', 'qb-input', 'lation_ui'
-    Notify = 'qbcore', -- 'ox_lib', 'qbcore', 'esx'
-    ProgressBar = 'lation_ui' -- 'ox_lib', 'qbcore', 'esx', 'lation_ui'
+    Menu = 'ox_lib', -- 'ox_lib', 'qb-menu', 'lation_ui'
+    Input = 'ox_lib', -- 'ox_lib', 'qb-input', 'lation_ui'
+    Notify = 'ox_lib', -- 'ox_lib', 'qbcore', 'esx'
+    ProgressBar = 'ox_lib' -- 'ox_lib', 'qbcore', 'esx', 'lation_ui'
 }
 
 -- PET SETTINGS
